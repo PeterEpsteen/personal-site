@@ -1,11 +1,16 @@
 ---
-title: About
-description: What is Hugo?
+title: Peter Epsteen    
+description: Backend Software Engineer
 ---
+#### Striving to tackle big problems through software, I am constantly striving to better myself as an engineer by staying up to date on modern software solutions and best practices.
+<br>
 
-Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
-Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.
 
-Websites built with Hugo are extremely fast and secure. Hugo sites can be hosted anywhere, including Netlify, Heroku, GoDaddy, DreamHost, GitHub Pages, GitLab Pages, Surge, Aerobatic, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure, and CloudFront and work well with CDNs. Hugo sites run without the need for a database or dependencies on expensive runtimes like Ruby, Python, or PHP.
+I am a passionate engineer with 3 years of software development experience. While I have worked professionally across the stack, I specialize in backend development. I take pride in the robust, scalable backend systems I have built, and love to tackle seemingly impossible problems. To tackle these challenges I use the best tool for the job, and thus have experience a wide range of modern languages/environments. 
 
-We think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.
+While I love tinkering with multiple different languages and domains, In my day to day I gravitate towards Golang and Javascript/Typescript (Node and React). During my career I have professionally written code in many other languages, namely Python, Java, Rust, and C++. I have always had a genuine interest in the theory and fundamentals of Computer Science, and thus am able to pick up and switch between languages efficiently and effectively. 
+
+I deeply subscribe to the devops mindset, and am highly skilled in various technologies such as Linux, Docker, Bash, Kubernetes, Terraform, and Packer. I have experience working in all the major cloud providers, but spend most of my time in Google Cloud Products. I have developed, deployed, and maintained many successful systems using all of these platforms.
+
+
+
