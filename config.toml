@@ -156,7 +156,7 @@ details = "Quickly mastered tools across the GCP product line, such as Google Bi
 
 [[params.experience.list]]
 title = "Web Developer"
-dates = "2016 - 2018"
+dates = "2017 - 2018"
 company = "Cal Poly Pomona"
 details = "Full stack web development role. Responsible for content creation, development, and deployment in a highly regulated environment. Worked with HTML/CSS/JS, MSSQL, C#, and ASP.NET"
 
@@ -168,6 +168,19 @@ details = "Learned best practices in deploying production code to a consumer fac
 
 [[params.experience.list.items]]
 details = "Trusted with developing and deploying to production at a young age"
+
+[[params.experience.list]]
+title = "IT Student Technition"
+dates = "2016 - 2018"
+company = "Cal Poly Pomona"
+details = "IT support for both student and staff in the campus housing department"
+
+[[params.experience.list.items]]
+details = "Managing and solving support tickets filed by staff and students"
+[[params.experience.list.items]]
+details = "Wiping, reimaging, and deploying various computing hardware for staff use"
+[[params.experience.list.items]]
+details = "DBAN and securily processing old machines"
 
 [params.information]
 enable = false
