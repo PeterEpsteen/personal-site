@@ -1,60 +1,186 @@
 baseURL = "https://peter-epsteen.netlify.com/"
 languageCode = "en-us"
 title = "Peter Epsteen"
-theme = "minimal"
-googleAnalytics = ""
+theme = "hugo-devresume-theme"
 
 [params]
-    description = "Backend Software Engineer"
-    githubUsername = "#"
-    accent = "teal"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # Google Font 
-    highlight = true
-    highlightStyle = "solarized-light"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+author = "Peter Epsteen"
+description = ""
+primaryColor = "#54B689"
+textPrimaryColor = "#292929"
 
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+[params.profile]
+enable = true
+name = "Peter Epsteen"
+tagline = "Software Engineer"
+avatar = "me.png"
 
-[[menu.main]]
-    url = "/about/"
-    name = "About"
-    weight = 2
+[params.contact]
+enable = true
+location = "Colorado Springs, CO"
 
-[[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 3
+[[params.contact.list]]
+icon = "fas fa-phone-square"
+url = "tel:#"
+text = "805 208 6930"
 
-#[[menu.main]]
-#    url = "/project/"
-#    name = "Projects"
-#    weight = 4
+[[params.contact.list]]
+icon = "fas fa-envelope-square"
+url = "mailto:#"
+text = "peterepsteen@gmail.com"
 
-# Social icons to be shown on the right-hand side of the navigation bar.
-# The "name" field should match the name of the icon in Font Awesome.
-# The list of available icons can be found at http://fontawesome.io/icons.
+[[params.contact.list]]
+icon = "fas fa-globe"
+url = "#"
+text = "www.peterepsteen.com"
 
-[[menu.icon]]
-    url = "mailto:peterepsteen@gmail.com"
-    name = "envelope-o"
-    weight = 1
+[params.skills]
+enable = true
 
-[[menu.icon]]
-    url = "https://github.com/peterepsteen/"
-    name = "github"
-    weight = 2
+[[params.skills.list]]
+title = "Technical"
 
-#[[menu.icon]]
-#    url = "https://twitter.com/username/"
-#    name = "twitter"
-#    weight = 3
+[[params.skills.list.items]]
+details = "Go"
 
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/peterepsteen/"
-    name = "linkedin"
-    weight = 4
+[[params.skills.list.items]]
+details = "JavaScript/Typescript/React"
+
+[[params.skills.list.items]]
+details = "Java/Scala"
+
+[[params.skills.list.items]]
+details = "PostgreSQL/MySQL"
+
+[[params.skills.list.items]]
+details = "Docker/Kubernetes"
+
+[[params.skills.list.items]]
+details = "Linux"
+
+
+[params.education]
+enable = true
+
+[[params.education.list]]
+degree = "BS in Computer Information Systems (Application Development)"
+university = "Cal Poly Pomona"
+dates = "2014 - 2018"
+
+[params.awards]
+enable = true
+
+[[params.awards.list]]
+name = "Founders Award"
+body = "Awarded to 5 of the most impactful employees at Quantum Metric"
+date = "2019"
+
+[[params.awards.list]]
+name = "Engineer of the Year"
+body = "Awarded to most valuable engineer at Quantum Metric"
+date = "2018"
+
+[params.languages]
+enable = false
+
+[params.interests]
+enable = true
+
+[[params.interests.list]]
+name = "Databases"
+
+[[params.interests.list]]
+name = "Emerging Languages"
+
+[[params.interests.list]]
+name = "Distributed Systems"
+
+
+[params.summary]
+enable = true
+text = "A driven Software Engineer with a true passion for architecting elegant systems to solve business problems."
+
+[params.experience]
+enable = true
+
+[[params.experience.list]]
+title = "Software Engineer"
+dates = "2019 - Present"
+company = "Quantum Metric"
+details = "Responsible for developing, deploying, and monitoring high stakes customer facing data pipelines. Use of Go, Javascript/Typescript, Kubernetes, Docker, Mysql/Postgres, React, C++, Apache Spark/Flink, and many others. \n\nThis fast paced role requires a facet of knowledge across all aspects of engineering, and thus, necessitates a strong nack for picking up languages/tools quickly and effectively. Due to the nature of the application, unique challenges of scale are encountered."
+
+[[params.experience.list.items]]
+details = "Recognized with back to back Engineer of the Year awards"
+
+[[params.experience.list.items]]
+details = "Identified and implemented effecient solutions to querying that saves millions of dollars in operational cloud costs per year"
+
+[[params.experience.list.items]]
+details = "Soley developed and deployed an RBAC solution for user management in order to solve clients needs for better security"
+
+[[params.experience.list.items]]
+details = "On boarded and trained multiple new engineers"
+
+[[params.experience.list.items]]
+details = "Successfully deployed high risk client facing code to improve data ingestion"
+
+[[params.experience.list.items]]
+details = "Drove the adoption of modern devops practices by proving the business value of a faster deployment cycle"
+
+[[params.experience.list]]
+title = "Associate Software Engineer"
+dates = "2018 - 2019"
+company = "Quantum Metric"
+details = "Transitioned to a specialized backend development role as the company grew. Made progress towards migrating a legacy Javascript monorepo into a more logical microservice architecture written in Go. Trusted to deploy high risk customer facing code."
+
+[[params.experience.list.items]]
+details = "Successfully introduced Kubernetes to improve the availility of high stakes services"
+
+[[params.experience.list.items]]
+details = "Developed features with an infrastructure as code mindset using tools like Terraform and Packer"
+
+[[params.experience.list]]
+title = "Software Engineer Intern"
+dates = "2018 - Present"
+company = "Quantum Metric"
+details = "Full stack web development role. Heavy Javascript usage. Shipped features with a React front end and Node/Express back end. \n\nQuickly demonstrated the ability to efficiently and effectively solve challenging technical problems. Offered a full time role shortly after the initial internship."
+
+[[params.experience.list.items]]
+details = "In a few short months, soley developed and deployed a highly requested yet challenging  feature"
+
+[[params.experience.list.items]]
+details = "Countless high value bug fixes, including one cacheing issue that ended up saving over ten thousand dollars of cloud costs per month"
+
+[[params.experience.list.items]]
+details = "Quickly mastered tools across the GCP product line, such as Google Big Query, GCS, Compute Engine, and Pub Sub"
+
+[[params.experience.list]]
+title = "Web Developer"
+dates = "2016 - 2018"
+company = "Cal Poly Pomona"
+details = "Full stack web development role. Responsible for content creation, development, and deployment in a highly regulated environment. Worked with HTML/CSS/JS, MSSQL, C#, and ASP.NET"
+
+[[params.experience.list.items]]
+details = "Successfully implemented a large migration from an outdated web framework to ASP.NET"
+
+[[params.experience.list.items]]
+details = "Learned best practices in deploying production code to a consumer facing site"
+
+[[params.experience.list.items]]
+details = "Trusted with developing and deploying to production at a young age"
+
+[params.information]
+enable = false
+
+[params.social]
+enable = true
+
+[[params.social.list]]
+icon = "fab fa-github-square"
+url = "//github.com/peterepsteen"
+title = "peterepsteen"
+
+[[params.social.list]]
+icon = "fab fa-linkedin"
+url = "//linkedin.com/in/peterepsteen"
+title = "peterepsteen"
