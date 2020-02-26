@@ -98,7 +98,7 @@ name = "Distributed Systems"
 
 [params.summary]
 enable = true
-text = "A driven Software Engineer with a true passion for architecting elegant systems to solve business problems."
+text = "An experienced Software Engineer with a passion for building distributed systems and solving problems of scale."
 
 [params.experience]
 enable = true
